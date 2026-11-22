@@ -1,0 +1,5 @@
+﻿modelo,fit_s,predict_s,single_row_ms,rss_peak_mb,rss_delta_mb,artifact_size_mb,validation_roc_auc,validation_pr_auc,validation_brier,validation_f1_at_0.5,validation_precision_at_0.5,validation_recall_at_0.5,validation_threshold_base,validation_f1_at_base,validation_precision_at_base,validation_recall_at_base,validation_cost_base
+dummy,1.8126,0.1071,19.8913,415.55,140.44,0.01,0.5,0.195339,0.157234,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.195339
+logistic_regression,6.98,0.1111,18.8987,418.43,133.71,0.01,0.723969,0.34257,0.215447,0.433633,0.295013,0.817987,0.51,0.436002,0.299112,0.803916,0.130296
+random_forest,77.6181,2.9711,122.6987,522.87,235.36,41.82,0.733391,0.361072,0.191647,0.441722,0.321404,0.706026,0.43,0.436005,0.293848,0.844601,0.129474
+hist_gradient_boosting,76.5356,2.4245,46.7396,577.65,154.1,0.92,0.729988,0.354948,0.208845,0.433799,0.300483,0.779749,0.44,0.433002,0.287169,0.87978,0.130131

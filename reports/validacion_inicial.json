@@ -1,0 +1,107 @@
+{
+  "archivo": "C:\\Users\\boris\\OneDrive\\Escritorio\\pr2\\INTEGRADOR-DB-PROGRAMACION\\proyecto-integrador\\data\\raw\\KaggleV2-May-2016.csv",
+  "shape": {
+    "filas": 110527,
+    "columnas": 14
+  },
+  "columnas": [
+    "PatientId",
+    "AppointmentID",
+    "Gender",
+    "ScheduledDay",
+    "AppointmentDay",
+    "Age",
+    "Neighbourhood",
+    "Scholarship",
+    "Hipertension",
+    "Diabetes",
+    "Alcoholism",
+    "Handcap",
+    "SMS_received",
+    "No-show"
+  ],
+  "dtypes": {
+    "PatientId": "float64",
+    "AppointmentID": "int64",
+    "Gender": "str",
+    "ScheduledDay": "str",
+    "AppointmentDay": "str",
+    "Age": "int64",
+    "Neighbourhood": "str",
+    "Scholarship": "int64",
+    "Hipertension": "int64",
+    "Diabetes": "int64",
+    "Alcoholism": "int64",
+    "Handcap": "int64",
+    "SMS_received": "int64",
+    "No-show": "str"
+  },
+  "memoria_mb": 17.58,
+  "nulos": {
+    "PatientId": 0,
+    "AppointmentID": 0,
+    "Gender": 0,
+    "ScheduledDay": 0,
+    "AppointmentDay": 0,
+    "Age": 0,
+    "Neighbourhood": 0,
+    "Scholarship": 0,
+    "Hipertension": 0,
+    "Diabetes": 0,
+    "Alcoholism": 0,
+    "Handcap": 0,
+    "SMS_received": 0,
+    "No-show": 0
+  },
+  "duplicados_exactos": 0,
+  "appointment_id_duplicados": 0,
+  "target": {
+    "conteo": {
+      "No": 88208,
+      "Yes": 22319
+    },
+    "tasa_no_show": 0.201933
+  },
+  "edad": {
+    "min": -1,
+    "max": 115,
+    "media": 37.089,
+    "mediana": 37.0,
+    "negativas": 1,
+    "cero": 3539,
+    "mayores_100": 7
+  },
+  "fechas": {
+    "scheduled_min": "2015-11-10T07:13:56+00:00",
+    "scheduled_max": "2016-06-08T20:07:23+00:00",
+    "appointment_min": "2016-04-29T00:00:00+00:00",
+    "appointment_max": "2016-06-08T00:00:00+00:00",
+    "scheduled_invalidas": 0,
+    "appointment_invalidas": 0
+  },
+  "demora": {
+    "min": -6,
+    "max": 179,
+    "media": 10.184,
+    "mediana": 4.0,
+    "negativas": 5,
+    "mismo_dia": 38563
+  },
+  "unicos": {
+    "pacientes": 62299,
+    "turnos": 110527,
+    "barrios": 81,
+    "fechas_de_cita": 27
+  },
+  "genero": {
+    "F": 71840,
+    "M": 38687
+  },
+  "handcap": {
+    "0": 108286,
+    "1": 2042,
+    "2": 183,
+    "3": 13,
+    "4": 3
+  }
+}

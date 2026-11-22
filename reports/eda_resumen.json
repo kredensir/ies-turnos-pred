@@ -1,0 +1,49 @@
+{
+  "turnos": 110527,
+  "tasa_no_show": 0.2019,
+  "pacientes_unicos": 62299,
+  "barrios": 81,
+  "no_show_por_demora": {
+    "0": 4.66,
+    "1-7": 24.15,
+    "8-14": 30.47,
+    "15-30": 32.59,
+    ">30": 33.0
+  },
+  "no_show_por_sms": {
+    "Sin SMS": 16.7,
+    "Con SMS": 27.57
+  },
+  "no_show_por_edad": {
+    "0-12": 20.47,
+    "13-18": 26.05,
+    "19-30": 24.71,
+    "31-45": 21.37,
+    "46-60": 17.82,
+    "61+": 15.21
+  },
+  "barrios_mayor_no_show": {
+    "SANTOS DUMONT": 28.92,
+    "SANTA CLARA": 26.48,
+    "ITARARÉ": 26.27,
+    "JESUS DE NAZARETH": 24.4,
+    "ILHA DO PRÍNCIPE": 23.48,
+    "CARATOÍRA": 23.04,
+    "ANDORINHAS": 23.03,
+    "PRAIA DO SUÁ": 22.83,
+    "GURIGICA": 22.6,
+    "BENTO FERREIRA": 22.49
+  },
+  "barrios_menor_no_show": {
+    "REDENÇÃO": 17.71,
+    "SANTO ANTÔNIO": 17.63,
+    "CONSOLAÇÃO": 17.22,
+    "REPÚBLICA": 17.13,
+    "MATA DA PRAIA": 17.08,
+    "VILA RUBIM": 16.57,
+    "DO QUADRO": 16.49,
+    "JARDIM DA PENHA": 16.28,
+    "SANTA MARTHA": 15.84,
+    "DO CABRAL": 15.71
+  }
+}

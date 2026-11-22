@@ -1,0 +1,47 @@
+{
+  "target": "no_show",
+  "id_columns": [
+    "PatientId",
+    "AppointmentID"
+  ],
+  "numeric_features": [
+    "Age",
+    "waiting_days",
+    "scheduled_hour",
+    "scheduled_weekday",
+    "appointment_weekday",
+    "appointment_week",
+    "appointment_month",
+    "is_weekend",
+    "chronic_conditions",
+    "has_chronic_condition",
+    "handicap_any",
+    "Scholarship",
+    "Hipertension",
+    "Diabetes",
+    "Alcoholism",
+    "Handcap",
+    "SMS_received",
+    "is_same_day",
+    "age_imputed",
+    "age_capped",
+    "waiting_days_corrected"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Neighbourhood",
+    "age_group",
+    "waiting_days_bucket"
+  ],
+  "drop_columns": [
+    "PatientId",
+    "AppointmentID",
+    "ScheduledDay",
+    "AppointmentDay",
+    "scheduled_date",
+    "appointment_date",
+    "appointment_weekday_name",
+    "no_show"
+  ],
+  "nota": "Las columnas de fecha y los identificadores se conservan en los archivos para trazabilidad y EDA, pero no se usan como features. PatientId se usa solo para la partición por paciente."
+}

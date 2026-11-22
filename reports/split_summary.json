@@ -1,0 +1,31 @@
+{
+  "total_filas": 110527,
+  "total_pacientes": 62299,
+  "splits": {
+    "train": {
+      "filas": 77380,
+      "porcentaje_filas": 70.01,
+      "pacientes": 43609,
+      "tasa_no_show": 0.202598,
+      "fecha_min": "2016-04-29 00:00:00+00:00",
+      "fecha_max": "2016-06-08 00:00:00+00:00"
+    },
+    "validation": {
+      "filas": 16735,
+      "porcentaje_filas": 15.14,
+      "pacientes": 9345,
+      "tasa_no_show": 0.195339,
+      "fecha_min": "2016-04-29 00:00:00+00:00",
+      "fecha_max": "2016-06-08 00:00:00+00:00"
+    },
+    "test": {
+      "filas": 16412,
+      "porcentaje_filas": 14.85,
+      "pacientes": 9345,
+      "tasa_no_show": 0.20552,
+      "fecha_min": "2016-04-29 00:00:00+00:00",
+      "fecha_max": "2016-06-08 00:00:00+00:00"
+    }
+  },
+  "sin_fuga_de_pacientes": true
+}

@@ -1,0 +1,11 @@
+﻿regla,filas_afectadas,accion
+Duplicados exactos,0,Sin cambios.
+AppointmentID duplicados,0,Sin cambios.
+PatientId convertido a entero,110527,Se conserva para la partición por paciente; no se usará como feature.
+Gender normalizado,0,Se estandariza a F/M; valores inválidos pasan a 'Desconocido'.
+Neighbourhood normalizado,0,Se eliminan espacios extra; nulos pasan a 'Desconocido'.
+Age negativa o nula,1,Se imputa con la mediana (37) y se marca age_imputed.
+Age mayor a 100,7,Se limita a 100 y se marca age_capped.
+Demora negativa,5,Se corrige a 0 y se marca waiting_days_corrected.
+No-show mapeado,110527,"Yes=1, No=0; la columna original se reemplaza por no_show."
+Variables derivadas,10,"waiting_days_bucket, age_group, is_same_day, appointment_weekday, appointment_week, appointment_month, is_weekend, scheduled_weekday, scheduled_hour, chronic_conditions, has_chronic_condition, handicap_any."

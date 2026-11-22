@@ -1,0 +1,34 @@
+{
+  "filas_antes": 110527,
+  "filas_despues": 110527,
+  "filas_eliminadas": 0,
+  "columnas_antes": 14,
+  "columnas_despues": 33,
+  "target": {
+    "conteo": {
+      "0": 88208,
+      "1": 22319
+    },
+    "tasa_no_show": 0.201933
+  },
+  "nulos_totales": 0,
+  "edad": {
+    "min": 0,
+    "max": 100,
+    "media": 37.089
+  },
+  "demora": {
+    "min": 0,
+    "max": 179,
+    "media": 10.184
+  },
+  "unicos": {
+    "pacientes": 62299,
+    "barrios": 81
+  },
+  "archivos": {
+    "csv": "C:\\Users\\boris\\OneDrive\\Escritorio\\pr2\\INTEGRADOR-DB-PROGRAMACION\\proyecto-integrador\\data\\processed\\turnos_clean.csv",
+    "parquet": "C:\\Users\\boris\\OneDrive\\Escritorio\\pr2\\INTEGRADOR-DB-PROGRAMACION\\proyecto-integrador\\data\\processed\\turnos_clean.parquet",
+    "log": "C:\\Users\\boris\\OneDrive\\Escritorio\\pr2\\INTEGRADOR-DB-PROGRAMACION\\proyecto-integrador\\reports\\limpieza_log.csv"
+  }
+}
